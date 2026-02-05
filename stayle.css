@@ -1280,37 +1280,30 @@ body {
 }
 
 /* ===============================
-   THEME + MENU ICONS
+   MOBILE: THEME OUTSIDE MENU
+   DESKTOP UNCHANGED
    =============================== */
 
-.theme-toggle {
-  display: none;
-}
-
-/* Mobile layout */
 @media (max-width: 768px) {
 
-  .div-list {
-    position: fixed;
+  /* menu open hone par theme icon ko floating bana do */
+  .ul-list #theme-toggle {
+    position: fixed !important;
     top: 20px;
-    right: 20px;
-    display: flex;
-    gap: 10px;
-    z-index: 3000;
-  }
-
-  .theme-toggle,
-  .menu-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
+    right: 70px;   /* menu toggle ke left */
     background: var(--header-bg);
     color: var(--text-main);
+    width: 42px;
+    height: 42px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    cursor: pointer;
+    z-index: 3000;
+    padding: 0 !important;
   }
+
 }
+
 
