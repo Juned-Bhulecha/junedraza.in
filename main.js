@@ -157,11 +157,13 @@ menuToggle.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 });
 
+// Close menu on link click
 document.querySelectorAll("#nav-menu a").forEach(link => {
   link.addEventListener("click", () => {
     navMenu.classList.remove("active");
   });
 });
+
 
 
 const themeToggle = document.getElementById("theme-toggle");
