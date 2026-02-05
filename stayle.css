@@ -67,6 +67,49 @@ header {
   justify-content: center;
 }
 
+/* ===============================
+   MOBILE NAVBAR
+   =============================== */
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+
+  nav {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+    color: var(--text-main);
+  }
+
+  .ul-list {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: var(--header-bg);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+    border-radius: 0;
+  }
+
+  .ul-list.active {
+    display: flex;
+  }
+}
+
+
 /* --- Light Mode: Active link par text black dikhane ke liye --- */
 .ul-list li.active a,
 .ul-list li.active i {
@@ -329,13 +372,11 @@ section {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    270deg,
-    #474af0,
-    #38bdf8,
-    #6366f1,
-    #474af0
-  );
+  background: linear-gradient(270deg,
+      #474af0,
+      #38bdf8,
+      #6366f1,
+      #474af0);
   background-size: 400% 400%;
   animation: gradientMove 6s ease infinite;
   z-index: -1;
@@ -367,15 +408,23 @@ section {
 .btn-home2:hover {
   transform: translateY(-3px);
   color: #ffffff;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   border-color: transparent;
 }
 
 /* Gradient animation */
 @keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 
