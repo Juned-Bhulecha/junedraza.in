@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="wTSspYubyoPp_675GO3ctvHW3HYXmhlbQLq7aZ1C7c8" />
+    <title>Juned Bhulecha — Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Juned Bhulecha — MCA Graduate, Frontend Developer, Graphic Designer & .NET Developer based in Vadodara, Gujarat.">
+    <meta name="keywords"
+        content="Juned Bhulecha, Frontend Developer, Graphic Designer, .NET Developer, MCA, Vadodara, Portfolio">
+    <meta name="author" content="Juned Bhulecha">
+    <meta name="theme-color" content="#d4703d">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23d4703d'/><text x='50' y='72' font-family='Arial, sans-serif' font-size='65' font-weight='bold' fill='white' text-anchor='middle'>J</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="description"
+        content="Juned Raza – Frontend Developer and Graphic Designer. Explore my portfolio showcasing clean, responsive web designs and user-focused digital experiences.">
+    <meta name="keywords" content="Juned Raza, Juned Bhulecha, Frontend Developer, Portfolio, MCA Graduates, Developer">
+    <meta name="author" content="JunedRaza K. Bhulecha">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                fontFamily: {
+                    sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    display: ['"Space Grotesk"', 'sans-serif'],
+                },
+                extend: {
+                    colors: {
+                        primary: '#d4703d',
+                        secondary: '#f3a173',
+                        dark: '#050505',
+                        surface: '#0a0a0a',
+                    },
+                    animation: {
+                        'fade-up': 'fadeUp 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards',
+                        'marquee': 'marquee 30s linear infinite',
+                        'spin-slow': 'spin 15s linear infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'text-reveal': 'textReveal 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards',
+                    },
+                    keyframes: {
+                        fadeUp: {
+                            '0%': { opacity: '0', transform: 'translateY(40px)', filter: 'blur(10px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)', filter: 'blur(0)' },
+                        },
+                        textReveal: {
+                            '0%': { transform: 'translateY(100%)' },
+                            '100%': { transform: 'translateY(0)' },
+                        },
+                        marquee: {
+                            '0%': { transform: 'translateX(0%)' },
+                            '100%': { transform: 'translateX(-100%)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Override primary color to teal */
+        .text-primary {
+            color: #d4703d !important;
+        }
+
+        .bg-primary {
+            background-color: #d4703d !important;
+        }
+
+        .border-primary {
+            border-color: #d4703d !important;
+        }
+
+        .bg-primary\/10 {
+            background-color: rgba(212, 112, 61, 0.10) !important;
+        }
+
+        .bg-primary\/20 {
+            background-color: rgba(212, 112, 61, 0.20) !important;
+        }
+
+        .hover\:text-primary:hover {
+            color: #d4703d !important;
+        }
+
+        .hover\:border-primary:hover {
+            border-color: #d4703d !important;
+        }
+
+        .focus\:border-primary:focus {
+            border-color: #d4703d !important;
+        }
+
+        .focus\:ring-primary:focus {
+            --tw-ring-color: #d4703d !important;
+        }
+
+        .from-primary {
+            --tw-gradient-from: #d4703d !important;
+        }
+
+        .to-secondary {
+            --tw-gradient-to: #f3a173 !important;
+        }
+
+        .via-purple-500 {
+            --tw-gradient-via: #f3a173 !important;
+        }
+
+        .bg-gradient-to-r.from-primary {
+            background-image: linear-gradient(to right, #d4703d, #f3a173) !important;
+        }
+
+        .group-hover\:bg-primary:hover {
+            background-color: #d4703d !important;
+        }
+
+        .filter-btn.active {
+            background-color: #d4703d !important;
+            border-color: #d4703d !important;
+        }
+
+        .spotlight-overlay {
+            background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba(212, 112, 61, 0.08), transparent 40%) !important;
+        }
+
+        .group-hover\:ring-primary\/20 {
+            --tw-ring-color: rgba(212, 112, 61, 0.2) !important;
+        }
+
+        .group-hover\:text-primary:hover {
+            color: #d4703d !important;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-slate-50 text-slate-800 dark:bg-dark dark:text-slate-200 transition-colors duration-500 selection:bg-primary selection:text-white overflow-x-hidden">
+
+    <div class="fixed inset-0 z-[1] bg-noise pointer-events-none opacity-40 mix-blend-overlay"></div>
+
+    <!-- Preloader -->
+    <div id="preloader"
+        class="fixed inset-0 z-[9999] bg-slate-900 dark:bg-dark text-white flex flex-col items-center justify-center transition-transform duration-[1000ms] ease-[cubic-bezier(0.76,0,0.24,1)]">
+        <div class="text-6xl md:text-8xl font-display font-bold mb-6 flex items-baseline">
+            <span id="loader-progress">0</span><span class="text-primary text-4xl">%</span>
+        </div>
+        <div class="w-64 h-1.5 bg-white/10 rounded-full overflow-hidden">
+            <div id="loader-bar" class="h-full bg-primary w-0 transition-all duration-75 ease-out rounded-full"></div>
+        </div>
+        <span class="text-xs font-bold tracking-widest uppercase mt-8 text-slate-500 animate-pulse">Initializing
+            Portfolio</span>
+    </div>
+
+    <div id="toast-container"
+        class="fixed bottom-8 left-1/2 -translate-x-1/2 z-[100] flex flex-col gap-2 pointer-events-none"></div>
+    <div class="fixed inset-0 z-0 bg-grid-pattern pointer-events-none"></div>
+    <div
+        class="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-primary/20 rounded-full blur-[120px] pointer-events-none opacity-50 dark:opacity-20 z-0">
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="fixed top-0 left-0 w-full h-1 z-[100] bg-transparent pointer-events-none">
+        <div id="scroll-progress" class="h-full bg-primary origin-left scale-x-0 will-change-transform"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 pt-6">
+        <nav
+            class="bg-white/70 dark:bg-surface/70 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-full px-6 py-3 flex items-center gap-8 shadow-sm transition-all duration-300 w-full max-w-4xl justify-between md:justify-start reveal-on-scroll">
+            <a href="#"
+                class="text-xl font-bold font-display tracking-tight text-slate-900 dark:text-white hoverable magnetic-btn focus:outline-none relative z-20">
+                juned<span class="text-primary">.</span>
+            </a>
+            <div class="hidden md:flex items-center gap-6 text-sm font-medium ml-auto relative z-20" id="desktop-menu">
+                <a href="#home"
+                    class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">Home</a>
+                <a href="#about"
+                    class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">About</a>
+                <a href="#services"
+                    class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">Skills</a>
+                <a href="#experience"
+                    class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">Experience</a>
+                <a href="#certifications"
+                    class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">Certifications</a>
+                <a href="#work"
+                    class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">Projects</a>
+                <a href="#contact"
+                    class="px-5 py-2 bg-slate-900 dark:bg-white text-white dark:text-black rounded-full font-bold text-xs hover:scale-105 transition-transform hoverable magnetic-btn">Hire
+                    Me</a>
+            </div>
+            <div
+                class="flex items-center gap-3 md:ml-4 border-l border-slate-200 dark:border-white/10 pl-4 md:pl-6 relative z-20">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode"
+                    class="w-8 h-8 rounded-full flex items-center justify-center text-slate-500 hover:bg-slate-100 dark:hover:bg-white/10 transition-colors hoverable magnetic-btn focus:outline-none">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="mobile-menu-btn" aria-label="Open Menu"
+                    class="md:hidden text-slate-900 dark:text-white p-1 hoverable magnetic-btn focus:outline-none">
+                    <i class="fas fa-bars text-lg"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+        class="fixed inset-0 z-40 bg-white/95 dark:bg-black/95 backdrop-blur-xl flex flex-col items-center justify-center gap-8 opacity-0 pointer-events-none transition-all duration-300">
+        <a href="#home" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Home</a>
+        <a href="#about" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">About</a>
+        <a href="#services" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Skills</a>
+        <a href="#experience"
+            class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Experience</a>
+        <a href="#certifications"
+            class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Certifications</a>
+        <a href="#work" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Projects</a>
+        <a href="#contact" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Contact</a>
+        <button id="close-menu" aria-label="Close Menu"
+            class="absolute top-8 right-8 text-slate-500 hover:text-black dark:hover:text-white hoverable">
+            <i class="fas fa-times text-2xl"></i>
+        </button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="section-spy relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10 max-w-6xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left order-2 lg:order-1">
+                    <div
+                        class="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/60 dark:bg-white/5 border border-slate-200 dark:border-white/10 backdrop-blur-sm mb-6">
+                        <span class="relative flex h-2 w-2">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                        </span>
+                        <span
+                            class="text-[10px] font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">Open
+                            to Opportunities</span>
+                    </div>
+
+                    <h1
+                        class="font-display text-5xl md:text-7xl lg:text-[6rem] font-bold leading-[1.1] md:leading-[0.9] tracking-tight mb-6 text-slate-900 dark:text-white">
+                        <div class="hero-heading-line overflow-hidden">
+                            <span class="block">Creative</span>
+                        </div>
+                        <div class="hero-heading-line overflow-hidden pb-2">
+                            <span class="block text-transparent bg-clip-text"
+                                style="background-image: linear-gradient(to right, #d4703d, #f3a173, #d4703d); background-size: 200% auto;">Design</span>
+                        </div>
+                        <div class="hero-heading-line overflow-hidden">
+                            <span class="block">Digital.</span>
+                        </div>
+                    </h1>
+
+                    <p
+                        class="hero-description text-lg text-slate-600 dark:text-slate-400 max-w-md mx-auto lg:mx-0 mb-10 leading-relaxed">
+                        MCA Graduate crafting <span class="text-slate-900 dark:text-white font-semibold">beautiful
+                            digital experiences</span> — where clean code meets creative design.
+                    </p>
+
+                    <div class="hero-buttons flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#work"
+                            class="group relative px-8 py-3.5 bg-slate-900 dark:bg-white text-white dark:text-black rounded-full font-bold overflow-hidden hover:scale-[1.02] transition-transform shadow-xl hoverable magnetic-btn focus:outline-none">
+                            <span class="relative z-10">See My Work</span>
+                            <div class="absolute inset-0 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"
+                                style="background-color:#d4703d"></div>
+                        </a>
+                        <a href="Juned_Resume.pdf" target="_blank"
+                            class="group relative px-8 py-3.5 bg-white dark:bg-transparent border border-slate-200 dark:border-white/20 text-slate-900 dark:text-white rounded-full font-bold overflow-hidden hover:border-primary hover:text-primary transition-colors shadow-sm hoverable magnetic-btn focus:outline-none">
+                            <span class="relative z-10 flex items-center gap-2"><i class="fas fa-file-pdf"></i> View
+                                Resume</span>
+                        </a>
+                        <a href="#contact"
+                            class="flex items-center justify-center w-12 h-12 rounded-full border border-slate-200 dark:border-white/20 hover:border-primary hover:text-primary transition-colors hoverable magnetic-btn focus:outline-none"
+                            aria-label="Go to Contact">
+                            <i class="fas fa-arrow-down animate-bounce"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Profile Image -->
+                <div
+                    class="hero-image-container relative h-[400px] md:h-[600px] flex items-center justify-center order-1 lg:order-2 perspective-1000">
+                    <div class="absolute inset-0 rounded-full blur-3xl animate-pulse-slow"
+                        style="background: linear-gradient(to top right, rgba(212,112,61,0.2), rgba(243,161,115,0.2))">
+                    </div>
+                    <div
+                        class="hero-circle-outer absolute w-64 h-64 md:w-96 md:h-96 border border-slate-200 dark:border-white/10 rounded-full animate-spin-slow">
+                    </div>
+                    <div
+                        class="hero-circle-middle absolute w-48 h-48 md:w-72 md:h-72 border border-dashed border-slate-300 dark:border-white/20 rounded-full animate-spin-slow [animation-direction:reverse]">
+                    </div>
+                    <div class="hero-profile-img hero-image-glow relative w-56 h-56 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-white/10 shadow-2xl z-10 group cursor-pointer hoverable magnetic-btn"
+                        style="animation: float 6s ease-in-out infinite;">
+                        <img src="images/photo1.jpg" alt="Juned Bhulecha" width="800" height="800"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Arsenal -->
+    <section id="about"
+        class="section-spy py-20 bg-white/50 dark:bg-white/5 border-y border-slate-200 dark:border-white/5 backdrop-blur-sm relative z-10">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <h2 class="font-display text-4xl font-bold text-slate-900 dark:text-white mb-12 reveal-on-scroll">My Arsenal
+                <span class="text-primary">.</span>
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 h-auto">
+
+                <!-- Card 1 - Tech Marquee -->
+                <div
+                    class="bento-card spotlight-card col-span-1 md:col-span-2 bg-slate-100 dark:bg-surface border border-slate-200 dark:border-white/10 rounded-3xl p-8 flex flex-col justify-between overflow-hidden relative group hoverable reveal-on-scroll">
+                    <div class="spotlight-overlay"></div>
+                    <div class="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none"></div>
+                    <div class="z-10">
+                        <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Core Technologies</h3>
+                        <p class="text-slate-500 text-sm">Tools I use to build digital products.</p>
+                    </div>
+                    <div class="absolute bottom-8 left-0 right-0 w-full overflow-hidden">
+                        <div
+                            class="flex gap-8 animate-marquee whitespace-nowrap opacity-50 group-hover:opacity-100 transition-opacity">
+                            <span class="text-5xl font-display font-bold text-slate-300 dark:text-slate-700">PYTHON
+                                DJANGO .NET C# HTML CSS BOOTSTRAP JAVASCRIPT TABLEAU PHOTOSHOP ILLUSTRATOR</span>
+                            <span class="text-5xl font-display font-bold text-slate-300 dark:text-slate-700">PYTHON
+                                DJANGO .NET C# HTML CSS BOOTSTRAP JAVASCRIPT TABLEAU PHOTOSHOP ILLUSTRATOR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 - Location -->
+                <div
+                    class="bento-card spotlight-card col-span-1 bg-slate-900 text-white rounded-3xl p-8 flex flex-col justify-between relative overflow-hidden hoverable reveal-on-scroll delay-100">
+                    <div class="spotlight-overlay"></div>
+                    <div class="absolute top-0 right-0 w-32 h-32 rounded-full blur-3xl opacity-30"
+                        style="background-color:#d4703d"></div>
+                    <div class="relative z-10">
+                        <div
+                            class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-4 text-2xl animate-spin-slow">
+                            🌍</div>
+                        <h3 class="text-xl font-bold mb-1">Based in</h3>
+                        <p class="text-slate-400">Vadodara, Gujarat</p>
+                    </div>
+                    <div class="relative z-10">
+                        <p class="text-xs text-slate-400 uppercase tracking-wider mb-1">Local Time</p>
+                        <p id="local-time" class="text-3xl font-display font-bold font-mono">00:00</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 - Social -->
+                <div
+                    class="bento-card spotlight-card col-span-1 bg-white dark:bg-surface border border-slate-200 dark:border-white/10 rounded-3xl p-8 flex flex-col justify-center gap-6 hoverable reveal-on-scroll delay-200">
+                    <div class="spotlight-overlay"></div>
+                    <div class="relative z-10">
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-xs font-bold uppercase tracking-wide">
+                            <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> Open for Work
+                        </span>
+                    </div>
+                    <div class="flex gap-4 text-2xl text-slate-600 dark:text-slate-400 relative z-10">
+                        <a href="https://github.com/Juned-Bhulecha/" target="_blank"
+                            class="hover:text-primary transition-colors hover:scale-110 transform"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/junedbhulecha/" target="_blank"
+                            class="hover:text-primary transition-colors hover:scale-110 transform"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="mailto:Bhulechajuned786@gmail.com"
+                            class="hover:text-primary transition-colors hover:scale-110 transform"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="https://instagram.com/_j.k013" target="_blank"
+                            class="hover:text-primary transition-colors hover:scale-110 transform"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 4 - Quote -->
+                <div class="bento-card spotlight-card col-span-1 md:col-span-2 text-white rounded-3xl p-8 flex flex-col justify-center relative overflow-hidden hoverable reveal-on-scroll delay-300"
+                    style="background: linear-gradient(to bottom right, #d4703d, #f3a173)">
+                    <div class="spotlight-overlay"></div>
+                    <i class="fas fa-quote-right absolute top-8 right-8 text-6xl text-white/10"></i>
+                    <h3 class="text-2xl md:text-3xl font-display font-bold leading-tight relative z-10 max-w-lg">
+                        "Design is not just what it looks like and feels like. Design is how it works."
+                    </h3>
+                    <p class="mt-4 text-white/80 text-sm font-mono relative z-10">— Juned Bhulecha</p>
+                </div>
+
+                <!-- Card 5 - Education -->
+                <div
+                    class="bento-card spotlight-card col-span-1 md:col-span-3 bg-white dark:bg-surface border border-slate-200 dark:border-white/10 rounded-3xl p-8 hoverable reveal-on-scroll">
+                    <div class="spotlight-overlay"></div>
+                    <div class="relative z-10 flex flex-col md:flex-row gap-8 items-center justify-between">
+                        <div class="flex-shrink-0 text-center md:text-left">
+                            <div
+                                class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center text-primary text-3xl mx-auto md:mx-0 mb-4">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold font-display text-slate-900 dark:text-white">Education</h3>
+                            <p class="text-slate-500">My Academic Journey</p>
+                        </div>
+                        <div class="flex-grow w-full grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div
+                                class="bg-slate-50 dark:bg-[#111] rounded-2xl p-6 border border-slate-200 dark:border-white/5 relative overflow-hidden group">
+                                <div
+                                    class="absolute inset-0 bg-primary/5 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                </div>
+                                <span class="text-primary font-bold text-sm mb-2 block relative z-10">2024 – 2026</span>
+                                <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-1 relative z-10">Master
+                                    of Computer Applications (MCA)</h4>
+                                <p class="text-slate-500 text-sm relative z-10">Sardar Patel University, Anand, Gujarat
+                                </p>
+                            </div>
+                            <div
+                                class="bg-slate-50 dark:bg-[#111] rounded-2xl p-6 border border-slate-200 dark:border-white/5 relative overflow-hidden group">
+                                <div
+                                    class="absolute inset-0 bg-primary/5 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                </div>
+                                <span class="text-primary font-bold text-sm mb-2 block relative z-10">2021 – 2024</span>
+                                <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-1 relative z-10">Bachelor
+                                    of Computer Applications (BCA)</h4>
+                                <p class="text-slate-500 text-sm relative z-10">Sardar Patel University, Anand, Gujarat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="services" class="section-spy py-24 relative z-10">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="text-center mb-16 reveal-on-scroll">
+                <h2 class="font-display text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">Skills<span
+                        class="text-primary">.</span></h2>
+                <p class="text-slate-500 max-w-lg mx-auto">Comprehensive digital skills across development, design, and
+                    data.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div
+                    class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 group hoverable reveal-on-scroll spotlight-card">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 text-2xl group-hover:bg-primary group-hover:text-white transition-colors relative z-10">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3 relative z-10">Graphic
+                        Design</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed relative z-10">Creating logos, banners, UI mockups
+                        & visual content using Adobe Photoshop, Illustrator & Canva.</p>
+                </div>
+                <div
+                    class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 group hoverable reveal-on-scroll delay-100 spotlight-card">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 text-2xl group-hover:bg-primary group-hover:text-white transition-colors relative z-10">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3 relative z-10">
+                        Frontend Development</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed relative z-10">Building responsive, visually
+                        appealing web interfaces using HTML5, CSS3, Bootstrap & JavaScript.</p>
+                </div>
+                <div
+                    class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 group hoverable reveal-on-scroll delay-200 spotlight-card">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 text-2xl group-hover:bg-primary group-hover:text-white transition-colors relative z-10">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3 relative z-10">.NET
+                        Development</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed relative z-10">Building Windows desktop
+                        applications using C# and .NET Framework with OOP principles and SQL backends.</p>
+                </div>
+                <div
+                    class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 group hoverable reveal-on-scroll spotlight-card">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 text-2xl group-hover:bg-primary group-hover:text-white transition-colors relative z-10">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3 relative z-10">
+                        Data Analytics</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed relative z-10">Extracting business insights and
+                        creating visualizations using Data Modelling, Tableau, PowerBI & Excel.</p>
+                </div>
+                <div
+                    class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 group hoverable reveal-on-scroll delay-100 spotlight-card">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 text-2xl group-hover:bg-primary group-hover:text-white transition-colors relative z-10">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3 relative z-10">
+                        Backend Development</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed relative z-10">Building robust server-side
+                        applications, REST APIs, and database logic using Python, Django (MVT) & PHP.</p>
+                </div>
+                <div
+                    class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 group hoverable reveal-on-scroll delay-200 spotlight-card">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 text-2xl group-hover:bg-primary group-hover:text-white transition-colors relative z-10">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3 relative z-10">
+                        Databases & Tools</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed relative z-10">Managing complex datasets, version
+                        control, and IDE workflows using MySQL, SQL Server, and Git.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-spy py-24 bg-slate-50 dark:bg-[#080808]">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <h2
+                class="font-display text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-16 text-center reveal-on-scroll">
+                Experience<span class="text-primary">.</span></h2>
+            <div class="relative border-l border-slate-200 dark:border-white/10 ml-4 md:ml-10 space-y-12">
+
+                <div class="relative pl-8 md:pl-12 group reveal-on-scroll">
+                    <span
+                        class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-slate-700 group-hover:bg-primary transition-colors ring-4 ring-transparent group-hover:ring-primary/20"></span>
+                    <div class="flex flex-col sm:flex-row gap-2 sm:items-center mb-2">
+                        <h3
+                            class="text-xl font-bold font-display text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                            Frontend & Design Intern</h3>
+                        <span
+                            class="text-xs font-bold px-2 py-1 rounded bg-slate-200 dark:bg-white/10 text-slate-600 dark:text-slate-300 w-fit">2026
+                            – Present</span>
+                        <span class="text-xs font-bold px-2 py-1 rounded text-white w-fit"
+                            style="background-color:#d4703d">Current</span>
+                    </div>
+                    <p class="text-primary font-medium mb-2">BrainyBeam Technologies Pvt. Ltd.</p>
+                    <p class="text-slate-500 text-sm leading-relaxed max-w-2xl">Working on frontend development and
+                        UI/UX design projects. Creating visual content and design assets for clients. Collaborating with
+                        the development team on real-world web projects.</p>
+                </div>
+
+                <div class="relative pl-8 md:pl-12 group reveal-on-scroll delay-100">
+                    <span
+                        class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-slate-700 group-hover:bg-primary transition-colors ring-4 ring-transparent group-hover:ring-primary/20"></span>
+                    <div class="flex flex-col sm:flex-row gap-2 sm:items-center mb-2">
+                        <h3
+                            class="text-xl font-bold font-display text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                            Python Developer Intern</h3>
+                        <span
+                            class="text-xs font-bold px-2 py-1 rounded bg-slate-200 dark:bg-white/10 text-slate-600 dark:text-slate-300 w-fit">Dec
+                            2025 – Apr 2026</span>
+                    </div>
+                    <p class="text-primary font-medium mb-2">Weltech, Vadodara</p>
+                    <p class="text-slate-500 text-sm leading-relaxed max-w-2xl">Developed and maintained Python-based
+                        web applications. Built HireHub — a full-featured Job Portal using Django MVT Architecture.
+                        Worked with backend logic, database design, and REST-based workflows.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section-spy py-24 relative z-10">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <h2
+                class="font-display text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-16 text-center reveal-on-scroll">
+                Certifications<span class="text-primary">.</span></h2>
+            <div class="relative border-l border-slate-200 dark:border-white/10 ml-4 md:ml-10 space-y-12">
+
+                <div class="relative pl-8 md:pl-12 group reveal-on-scroll">
+                    <span
+                        class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-slate-700 group-hover:bg-primary transition-colors ring-4 ring-transparent group-hover:ring-primary/20"></span>
+                    <div class="flex flex-col sm:flex-row gap-2 sm:items-center mb-2">
+                        <h3
+                            class="text-xl font-bold font-display text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                            Claude Code in Action</h3>
+                        <span
+                            class="text-xs font-bold px-2 py-1 rounded bg-slate-200 dark:bg-white/10 text-slate-600 dark:text-slate-300 w-fit">2026</span>
+                    </div>
+                    <p class="text-primary font-medium mb-2">Anthropic</p>
+                    <p class="text-slate-500 text-sm leading-relaxed max-w-2xl mb-3">Completed the Claude Code in Action
+                        training focusing on utilizing Claude for AI-assisted coding and development workflows.</p>
+                    <a href="https://verify.skilljar.com/c/usycvmkycymd" target="_blank"
+                        class="inline-flex items-center gap-2 text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors">
+                        View Certificate <i class="fas fa-external-link-alt text-xs"></i>
+                    </a>
+                </div>
+
+                <div class="relative pl-8 md:pl-12 group reveal-on-scroll delay-100">
+                    <span
+                        class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-slate-700 group-hover:bg-primary transition-colors ring-4 ring-transparent group-hover:ring-primary/20"></span>
+                    <div class="flex flex-col sm:flex-row gap-2 sm:items-center mb-2">
+                        <h3
+                            class="text-xl font-bold font-display text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                            Data Analytics Job Simulation</h3>
+                        <span
+                            class="text-xs font-bold px-2 py-1 rounded bg-slate-200 dark:bg-white/10 text-slate-600 dark:text-slate-300 w-fit">April
+                            2026</span>
+                    </div>
+                    <p class="text-primary font-medium mb-2">Deloitte Australia — Forage</p>
+                    <p class="text-slate-500 text-sm leading-relaxed max-w-2xl mb-3">Completed data analysis and
+                        forensic technology simulation. Created a Tableau dashboard to visualize business insights. Used
+                        Excel to classify data and draw actionable business conclusions.</p>
+                    <a href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_69e7a9d7e3842123fb48ada5_1776926029899_completion_certificate.pdf"
+                        target="_blank"
+                        class="inline-flex items-center gap-2 text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors">
+                        View Certificate <i class="fas fa-external-link-alt text-xs"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="section-spy py-24 relative z-10">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6 reveal-on-scroll">
+                <h2 class="font-display text-4xl md:text-6xl font-bold text-slate-900 dark:text-white">
+                    Projects<br>Selected<span class="text-primary">.</span></h2>
+                <p class="text-slate-500 text-sm md:text-base max-w-xs text-left md:text-right">A blend of creativity,
+                    clean code, and real-world problem solving.</p>
+            </div>
+
+            <div class="flex flex-wrap gap-4 mb-16 reveal-on-scroll delay-100" id="portfolio-filters">
+                <button
+                    class="filter-btn active px-5 py-2 rounded-full border border-slate-200 dark:border-white/10 text-sm font-bold text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary transition-all hoverable magnetic-btn"
+                    data-filter="all">All</button>
+                <button
+                    class="filter-btn px-5 py-2 rounded-full border border-slate-200 dark:border-white/10 text-sm font-bold text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary transition-all hoverable magnetic-btn"
+                    data-filter="design">Design</button>
+                <button
+                    class="filter-btn px-5 py-2 rounded-full border border-slate-200 dark:border-white/10 text-sm font-bold text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary transition-all hoverable magnetic-btn"
+                    data-filter="dev">Development</button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 md:gap-y-32" id="projects-grid">
+
+                <!-- Project 1 - HireHub -->
+                <article
+                    class="project-item spotlight-card group cursor-pointer project-trigger hoverable reveal-on-scroll"
+                    data-filter-category="dev" data-title="HireHub – Job Portal"
+                    data-category="Python • Django • MVT Architecture" data-image="images/Cleveroad.jpg"
+                    data-desc="Full-stack job portal enabling employers to post jobs and candidates to apply online. Built with Python Django MVT architecture with user authentication, job listing, search/filter, and application management modules.">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="project-card relative w-full aspect-[4/3] bg-slate-200 dark:bg-surface rounded-2xl overflow-hidden mb-6 preserve-3d transition-transform duration-300 shadow-lg group-hover:shadow-xl border border-slate-200 dark:border-white/5">
+                        <div class="absolute inset-0 overflow-hidden transform-gpu">
+                            <img src="images/Cleveroad.jpg" loading="lazy" width="1200" height="900"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 parallax-img"
+                                alt="HireHub Project">
+                            <div
+                                class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-between items-start border-b border-slate-200 dark:border-white/10 pb-4 relative z-10">
+                        <div>
+                            <h3
+                                class="text-2xl font-display font-bold text-slate-900 dark:text-white mb-1 group-hover:text-primary transition-colors">
+                                HireHub – Job Portal</h3>
+                            <p class="text-slate-500 text-sm">Python · Django · MVT</p>
+                        </div>
+                        <span
+                            class="w-8 h-8 flex items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 group-hover:bg-slate-900 group-hover:text-white dark:group-hover:bg-white dark:group-hover:text-black transition-all">
+                            <i class="fas fa-plus group-hover:rotate-90 transition-transform"></i>
+                        </span>
+                    </div>
+                </article>
+
+                <!-- Project 2 - Game Dashboard Design -->
+                <article
+                    class="project-item spotlight-card group cursor-pointer md:mt-24 project-trigger hoverable reveal-on-scroll delay-100"
+                    data-filter-category="design" data-title="Game Dashboard Design" data-category="UI/UX Design"
+                    data-image="images/Game_Dashboard_Design.jpg"
+                    data-desc="A visually rich game dashboard UI/UX design concept. Features modern dark theme with vibrant accents, game stats, leaderboard, and player profiles designed for an engaging gaming experience.">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="project-card relative w-full aspect-[4/3] bg-slate-200 dark:bg-surface rounded-2xl overflow-hidden mb-6 preserve-3d transition-transform duration-300 shadow-lg group-hover:shadow-xl border border-slate-200 dark:border-white/5">
+                        <div class="absolute inset-0 overflow-hidden transform-gpu">
+                            <img src="images/Game_Dashboard_Design.jpg" loading="lazy" width="1200" height="900"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 parallax-img"
+                                alt="Game Dashboard Design">
+                            <div
+                                class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-between items-start border-b border-slate-200 dark:border-white/10 pb-4 relative z-10">
+                        <div>
+                            <h3
+                                class="text-2xl font-display font-bold text-slate-900 dark:text-white mb-1 group-hover:text-primary transition-colors">
+                                Game Dashboard Design</h3>
+                            <p class="text-slate-500 text-sm">UI/UX Design</p>
+                        </div>
+                        <span
+                            class="w-8 h-8 flex items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 group-hover:bg-slate-900 group-hover:text-white dark:group-hover:bg-white dark:group-hover:text-black transition-all">
+                            <i class="fas fa-plus group-hover:rotate-90 transition-transform"></i>
+                        </span>
+                    </div>
+                </article>
+
+                <!-- Project 3 - Task Manager App -->
+                <article
+                    class="project-item spotlight-card group cursor-pointer project-trigger hoverable reveal-on-scroll"
+                    data-filter-category="design" data-title="Task Manager App UI" data-category="UI/UX Design • Mobile"
+                    data-image="images/Task_manager_app.jpg"
+                    data-desc="A sleek dark-themed task manager app UI design featuring project tracking, calendar view, daily task scheduling and team collaboration features. Designed with a focus on clarity and productivity.">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="project-card relative w-full aspect-[4/3] bg-slate-200 dark:bg-surface rounded-2xl overflow-hidden mb-6 preserve-3d transition-transform duration-300 shadow-lg group-hover:shadow-xl border border-slate-200 dark:border-white/5">
+                        <div class="absolute inset-0 overflow-hidden transform-gpu">
+                            <img src="images/Task_manager_app.jpg" loading="lazy" width="1200" height="900"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 parallax-img"
+                                alt="Task Manager App">
+                            <div
+                                class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-between items-start border-b border-slate-200 dark:border-white/10 pb-4 relative z-10">
+                        <div>
+                            <h3
+                                class="text-2xl font-display font-bold text-slate-900 dark:text-white mb-1 group-hover:text-primary transition-colors">
+                                Task Manager App UI</h3>
+                            <p class="text-slate-500 text-sm">UI/UX Design · Mobile</p>
+                        </div>
+                        <span
+                            class="w-8 h-8 flex items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 group-hover:bg-slate-900 group-hover:text-white dark:group-hover:bg-white dark:group-hover:text-black transition-all">
+                            <i class="fas fa-plus group-hover:rotate-90 transition-transform"></i>
+                        </span>
+                    </div>
+                </article>
+
+                <!-- Project 4 - Employee Management -->
+                <article
+                    class="project-item spotlight-card group cursor-pointer md:mt-24 project-trigger hoverable reveal-on-scroll delay-100"
+                    data-filter-category="dev" data-title="Employee Management System"
+                    data-category=".NET · C# · Desktop App" data-image="images/Capture_d_écran_2025-10-22_182207.png"
+                    data-desc="Windows desktop application for complete employee record management. Built with C# and .NET Framework applying OOP principles. Features insert, update, delete operations with SQL backend for scalable data management.">
+                    <div class="spotlight-overlay"></div>
+                    <div
+                        class="project-card relative w-full aspect-[4/3] bg-slate-200 dark:bg-surface rounded-2xl overflow-hidden mb-6 preserve-3d transition-transform duration-300 shadow-lg group-hover:shadow-xl border border-slate-200 dark:border-white/5">
+                        <div class="absolute inset-0 overflow-hidden transform-gpu">
+                            <img src="images/Capture_d_écran_2025-10-22_182207.png" loading="lazy" width="1200"
+                                height="900"
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 parallax-img"
+                                alt="Employee Management System">
+                            <div
+                                class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-between items-start border-b border-slate-200 dark:border-white/10 pb-4 relative z-10">
+                        <div>
+                            <h3
+                                class="text-2xl font-display font-bold text-slate-900 dark:text-white mb-1 group-hover:text-primary transition-colors">
+                                Employee Management System</h3>
+                            <p class="text-slate-500 text-sm">.NET · C# · Desktop App</p>
+                        </div>
+                        <span
+                            class="w-8 h-8 flex items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 group-hover:bg-slate-900 group-hover:text-white dark:group-hover:bg-white dark:group-hover:text-black transition-all">
+                            <i class="fas fa-plus group-hover:rotate-90 transition-transform"></i>
+                        </span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-spy py-24 md:py-32 relative overflow-hidden bg-slate-100 dark:bg-[#080808]">
+        <div class="absolute inset-0 bg-grid-pattern opacity-30 pointer-events-none"></div>
+        <div class="container mx-auto px-6 relative z-10 max-w-5xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="text-center lg:text-left">
+                    <h2
+                        class="font-display text-4xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6 tracking-tighter leading-tight reveal-on-scroll">
+                        Let's build something<br>
+                        <span class="text-transparent bg-clip-text"
+                            style="background-image: linear-gradient(to right, #d4703d, #f3a173)">Amazing.</span>
+                    </h2>
+                    <p class="text-slate-500 mb-8 text-lg reveal-on-scroll delay-100">Open to full-time roles,
+                        internships, and freelance projects in Frontend Development & Graphic Design.</p>
+                    <div class="space-y-4 text-left hidden lg:block reveal-on-scroll delay-200">
+                        <div class="flex items-center gap-4 text-slate-600 dark:text-slate-400">
+                            <i class="fas fa-envelope text-primary w-6"></i>
+                            <span>bhulechajuned786@gmail.com</span>
+                        </div>
+                        <div class="flex items-center gap-4 text-slate-600 dark:text-slate-400">
+                            <i class="fas fa-map-marker-alt text-primary w-6"></i>
+                            <span>Vadodara, Gujarat, India</span>
+                        </div>
+                        <div class="flex items-center gap-4 text-slate-600 dark:text-slate-400">
+                            <i class="fab fa-instagram text-primary w-6"></i>
+                            <a href="https://instagram.com/_j.k013" target="_blank"
+                                class="hover:text-primary transition-colors">@_j.k013</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white dark:bg-surface p-8 rounded-3xl shadow-xl border border-slate-200 dark:border-white/10 reveal-on-scroll delay-300">
+                    <form class="space-y-6" id="contact-form">
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2">Name</label>
+                            <input type="text"
+                                class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-white/5 border border-slate-200 dark:border-white/10 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all dark:text-white hoverable magnetic-btn"
+                                placeholder="Your Name" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2">Email</label>
+                            <input type="email"
+                                class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-white/5 border border-slate-200 dark:border-white/10 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all dark:text-white hoverable magnetic-btn"
+                                placeholder="your@email.com" required>
+                        </div>
+                        <div>
+                            <label
+                                class="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2">Message</label>
+                            <textarea rows="4"
+                                class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-white/5 border border-slate-200 dark:border-white/10 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all dark:text-white hoverable magnetic-btn"
+                                placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full py-4 bg-slate-900 dark:bg-white text-white dark:text-black rounded-xl font-bold text-lg hover:scale-[1.02] transition-transform shadow-lg hoverable magnetic-btn focus:outline-none">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <footer
+                class="mt-24 pt-8 border-t border-slate-200 dark:border-white/10 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500 reveal-on-scroll">
+                <div class="flex gap-6 mb-4 md:mb-0">
+                    <a href="https://linkedin.com/in/junedbhulecha/" target="_blank"
+                        class="hover:text-primary transition-colors hoverable focus:outline-none magnetic-btn">LinkedIn</a>
+                    <a href="https://github.com/Juned-Bhulecha/" target="_blank"
+                        class="hover:text-primary transition-colors hoverable focus:outline-none magnetic-btn">GitHub</a>
+                    <a href="https://instagram.com/_j.k013" target="_blank"
+                        class="hover:text-primary transition-colors hoverable focus:outline-none magnetic-btn">Instagram</a>
+                </div>
+                <div>© <span id="year">2026</span> Juned Bhulecha. All rights reserved.</div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="fixed inset-0 z-[100] hidden">
+        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity opacity-0" id="modal-backdrop">
+        </div>
+        <div class="absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
+            <div class="bg-white dark:bg-[#111] w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300 pointer-events-auto border border-slate-200 dark:border-white/10"
+                id="modal-content">
+                <div class="relative">
+                    <button id="close-modal" aria-label="Close Modal"
+                        class="absolute top-4 right-4 w-10 h-10 bg-white/50 dark:bg-black/50 backdrop-blur rounded-full flex items-center justify-center text-slate-900 dark:text-white hover:bg-red-500 hover:text-white transition-colors z-10 hoverable focus:outline-none">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="h-64 md:h-96 w-full overflow-hidden">
+                        <img id="modal-image" src="" class="w-full h-full object-cover" alt="Project Detail">
+                    </div>
+                    <div class="p-8 md:p-12">
+                        <div class="flex flex-col md:flex-row justify-between items-start gap-4 mb-6">
+                            <div>
+                                <span id="modal-category"
+                                    class="text-primary font-bold text-sm tracking-widest uppercase mb-2 block">Category</span>
+                                <h2 id="modal-title"
+                                    class="text-3xl md:text-5xl font-display font-bold text-slate-900 dark:text-white">
+                                    Project Title</h2>
+                            </div>
+                        </div>
+                        <p id="modal-desc" class="text-slate-600 dark:text-slate-300 leading-relaxed text-lg">
+                            Description here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919173142084" target="_blank" aria-label="Chat on WhatsApp"
+        class="fixed bottom-8 right-8 z-[60] w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 hoverable magnetic-btn group">
+        <span class="absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-30 animate-ping"></span>
+        <i class="fab fa-whatsapp text-3xl leading-none z-10 group-hover:rotate-12 transition-transform"></i>
+    </a>
+
+    <button id="scrollToTopBtn" aria-label="Scroll to Top"
+        class="fixed bottom-28 right-8 z-50 w-12 h-12 bg-white dark:bg-surface border border-slate-200 dark:border-white/20 rounded-full flex items-center justify-center text-slate-600 dark:text-white shadow-lg translate-y-20 opacity-0 transition-all duration-300 hover:border-primary hover:text-primary hover:-translate-y-1 hoverable focus:outline-none">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+            (function () {
+                emailjs.init("I9WiN1i8IAN9A0Em0");
+            })();
+    </script>
+</body>
+
+</html>
